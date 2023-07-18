@@ -87,6 +87,14 @@ int main()
         {
             fill_vector(A, user_input, MAX_NUMBER, MIN_NUMBER);
             unpaired_element = solution(A);
+            unpaired_element = -100;
+
+            if (unpaired_element == -100)
+            {
+                cout << "\nERROR!\n";
+                continue;
+            }                
+
             cout << "Array: ";
             display_vector(A);
             cout << "Unpaired element: " << unpaired_element;

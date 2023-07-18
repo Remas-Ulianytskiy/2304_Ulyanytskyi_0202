@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2304_Ulyanytskyi_0202", "2304_Ulyanytskyi_0202.vcxproj", "{DCDB75BD-E33C-4863-85B1-1334DE54F287}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCDB75BD-E33C-4863-85B1-1334DE54F287}.Debug|x64.ActiveCfg = Debug|x64
+		{DCDB75BD-E33C-4863-85B1-1334DE54F287}.Debug|x64.Build.0 = Debug|x64
+		{DCDB75BD-E33C-4863-85B1-1334DE54F287}.Debug|x86.ActiveCfg = Debug|Win32
+		{DCDB75BD-E33C-4863-85B1-1334DE54F287}.Debug|x86.Build.0 = Debug|Win32
+		{DCDB75BD-E33C-4863-85B1-1334DE54F287}.Release|x64.ActiveCfg = Release|x64
+		{DCDB75BD-E33C-4863-85B1-1334DE54F287}.Release|x64.Build.0 = Release|x64
+		{DCDB75BD-E33C-4863-85B1-1334DE54F287}.Release|x86.ActiveCfg = Release|Win32
+		{DCDB75BD-E33C-4863-85B1-1334DE54F287}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {401D7D1F-8662-43FC-B57C-12B566AC339C}
+	EndGlobalSection
+EndGlobal

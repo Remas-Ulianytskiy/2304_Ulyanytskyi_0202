@@ -59,7 +59,7 @@ int solution(vector<int>& A)
             return pair.first;
     }
 
-    return -100;
+    return -1;
 }
 
 int main()
@@ -87,9 +87,8 @@ int main()
         {
             fill_vector(A, user_input, MAX_NUMBER, MIN_NUMBER);
             unpaired_element = solution(A);
-            unpaired_element = -100;
 
-            if (unpaired_element == -100)
+            if (unpaired_element == -1)
             {
                 cout << "\nERROR!\n";
                 continue;

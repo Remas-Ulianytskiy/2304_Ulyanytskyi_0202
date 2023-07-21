@@ -15,13 +15,12 @@ int get_user_input()
 void fill_vector(vector<int>& A, int size, int max, int min)
 {
     srand(time(0));
+    int rand_num;
 
     if (!A.empty())
-        A.clear();
-
-    int rand_num;
+        A.clear();    
     
-    for (int i = 0; i < size; ++i)
+    for (int i = 0; i < size; i += 2)
     {
         rand_num = (rand() % max) + min;
 
@@ -33,7 +32,6 @@ void fill_vector(vector<int>& A, int size, int max, int min)
             break;
         }
 
-        ++i;
         A.push_back(rand_num);
         A.push_back(rand_num);
     }
